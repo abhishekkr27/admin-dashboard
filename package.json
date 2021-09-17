@@ -4,7 +4,7 @@
   "private": true,
   "description": "ArchitectUI - Bootstrap 4 ReactJS Admin Dashboard Template FREE",
   "author": "DashboardPack.com",
-  "homepage": "https://abhishekrauniyar.github.io/dashboard-2",
+  "homepage": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DashboardPack/architectui-react-theme-free"
@@ -121,8 +121,6 @@
     "start": "cross-env NODE_PATH=./src node scripts/start.js",
     "build": "cross-env NODE_PATH=./src node scripts/build.js",
     "test": "cross-env NODE_PATH=./src node scripts/test.js --env=jsdom",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
